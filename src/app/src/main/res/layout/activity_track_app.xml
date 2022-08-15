@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".trackApp"
+    android:background="#1C1B1B">
+
+    <TextView
+        android:id="@+id/track_app_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:text="Track Application"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text='Choose what "Facebook" uses in the application'
+        android:textColor="#FFFFFF"
+        android:layout_below="@+id/track_app_tv"
+        android:layout_marginTop="30dp"
+        android:textSize="16sp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/tv_choose_features"/>
+
+    <CheckBox
+        android:id="@+id/checkBoxCamera"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Camera"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/tv_choose_features"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Microphone"
+        android:textColor="#FFFFFF"
+        android:layout_below="@id/checkBoxCamera"
+        android:layout_marginStart="40dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Track Application"
+        android:layout_below="@+id/checkBoxMic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:textSize="16dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#FF0000"
+        android:layout_marginStart="10dp"
+        android:id="@+id/tv_displayText"
+        android:gravity="center"/>
+
+</RelativeLayout>
