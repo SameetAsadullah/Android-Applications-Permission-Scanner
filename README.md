@@ -1,4 +1,4 @@
-<h1 align="center">Android Applications Permission Scanner</h1>
+<h1 align="center">Android Applications Permission Scanne</h1>
 
 ### Description
 An `Android Application Scanner` built using `Java on Android Studio`. It basically `Scans all the Applications` and lets you know if any application is using your `Camera or Microphone`. If it does then it tells you to use that application for some time so that it could `Track It` and let you know if there is any `Privacy Concern`. Detailed `Report` can be found [Here](https://github.com/SameetAsadullah/Android-Applications-Permission-Scanner/blob/main/Report.pdf).
